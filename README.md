@@ -18,6 +18,7 @@
             <div class="footer"> </div>
         </div>
     </body>
+</html>
 ```
 ``JS``
 ```
