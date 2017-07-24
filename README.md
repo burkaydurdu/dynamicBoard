@@ -8,6 +8,16 @@
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="./dynamicBoard.js"></script>
+    </head>
+    <body>
+        <p id="page">Content</p>
+        <a href="" id="object">Push</a>
+        <div id="dynamic_area>
+            <div class="head"> </div>
+            <div class="body"> </div>
+            <div class="footer"> </div>
+        </div>
+    </body>
 ```
 ``JS``
 ```
@@ -15,7 +25,6 @@
         $('#object').dynamic({}) 
     });
 ```
-> *'Object'* is action tag 
 
 ``Attribute changing``
 
@@ -57,6 +66,7 @@
     targetTagId: 'page',
     dynamicTagId: 'dynamic_area'
 ```
+
 ### Options : 
 
 ``left`` 0 - 100 <br> 
